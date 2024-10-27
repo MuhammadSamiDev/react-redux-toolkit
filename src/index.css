@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+.formInput {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  gap: 5px;
+}
+.formInput label {
+  font-size: 16px;
+}
+.formInput input {
+  padding: 4px;
+  border-radius: 10px;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
